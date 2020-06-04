@@ -1,0 +1,52 @@
+<!-- <div class="post">
+  <h2>Post title</h2>
+  <p>post works!</p>
+  <p>{{title}}</p>
+  <img [src]="img" alt="ajnj">
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error vel tempore
+    earum rerum corporis illo eveniet sapiente, odio eius qui hic iusto
+    voluptatum iste ea obcaecati laudantium eos voluptate doloremque!
+  </p>
+</div> -->
+
+<div class="post">
+  <ul class = 'postLogoUl'>
+    <li><img class = 'postLogo' [src]="logo" alt="logo" /></li>
+    <li class="postLiLogo">
+      <h1 class="error">{{ title }}</h1>
+    </li>
+  </ul>
+  <form>
+    <ul>
+      <li class="postLi"><span>Сумма ипотеки</span></li>
+      <br />
+      <li class="postLi"><input type="text" id="sum" value="0" name="sum" [(ngModel)]="sum" /></li>
+      <br />
+      <li class="postLi"><span>Начальный взнос</span></li>
+      <br />
+      <li class="postLi"><input type="text" id="fee" value="0" name="fee" [(ngModel)]="fee" /></li>
+      <br />
+      <li class="postLi"><span>Процентная ставка</span></li>
+      <br />
+      <li class="postLi"><input type="text" id="percent" value="0" name="percent" [(ngModel)]="percent" /></li>
+      <br />
+      <li class="postLi"><span>Срок в месяцах</span></li>
+      <br />
+      <li class="postLi"><input type="text" id="term" value="0" name="term" [(ngModel)]="term" /></li>
+      <br />
+      <li class="postLi">
+        <input
+          type="button"
+          value="Ежемесячный платеж"
+          (click)="calculator()"
+        />
+      </li>
+      <br />
+      <li class="postLi">
+        <textarea class="postTextarea" type="text" id="monthlyLnstallment" >
+        </textarea>
+      </li>
+    </ul>
+  </form>
+</div>
