@@ -115,7 +115,6 @@ ul {
     rgba(181, 147, 147, 0.37) 49%,
     rgba(154, 19, 19, 0.58) 82.81%
   );
-
   mix-blend-mode: multiply;
   border: 1px solid #ffffff;
   box-sizing: border-box;
@@ -166,7 +165,6 @@ ul {
   font-weight: bold;
   font-size: 0.83rem;
   line-height: 0.94rem;
-
   color: #ffffff;
   text-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
 }
@@ -180,7 +178,6 @@ ul {
   font-weight: bold;
   font-size: 1.11rem;
   line-height: 1.27rem;
-
   color: #ffffff;
   text-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
   margin-left: -2.8rem;
@@ -188,7 +185,7 @@ ul {
 
 .postLi textarea {
   margin-top: 1.16rem;
-  margin-left: -5rem;
+  margin-left: -4rem;
   width: 20rem;
   height: 6rem;
   background: #f4f4f4;
@@ -198,3 +195,164 @@ ul {
   resize: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .content {
+    height: 100%;
+    width: 100%;
+    margin-right: 0.5rem;
+    background: linear-gradient(
+      180deg,
+      rgba(181, 147, 147, 0.37) 49%,
+      rgba(154, 19, 19, 0.58) 82.81%
+    );
+    mix-blend-mode: multiply;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+  }
+  .valuesUl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Vodafone;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #ffffff;
+    text-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+  }
+  .conclusion {
+    margin-left: 0rem;
+  }
+  .title {
+    font-size: 3.4rem;
+  }
+  .postLiButt input {
+    width: 52.9rem;
+    height: 3rem;
+    font-size: 2.83rem;
+    margin-top: 1rem;
+  }
+  .postLiText span {
+    margin-top: 1.5rem;
+    position: absolute;
+    font-size: 2.73rem;
+    margin-left: 0rem;
+    width: 54rem;
+  }
+  .postLi textarea {
+    margin-top: 1.5rem;
+    margin-left: 0rem;
+    width: 52.3rem;
+    height: 4rem;
+  }
+  .postLi {
+    margin-top: 2.6rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+  }
+
+  .postLi input {
+    width: 52.3rem;
+    height: 3rem;
+    border-radius: 0.27rem;
+    margin-top: -1rem;
+  }
+  .valuesText {
+    font-size: 2rem;
+    margin-top: 0rem;
+    margin-bottom: -3rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .content {
+    height: 100%;
+    width: 100%;
+    margin-right: 0.5rem;
+    background: linear-gradient(
+      180deg,
+      rgba(181, 147, 147, 0.37) 49%,
+      rgba(154, 19, 19, 0.58) 82.81%
+    );
+    mix-blend-mode: multiply;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+  }
+  .valuesUl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Vodafone;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #ffffff;
+    text-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+  }
+  .conclusion {
+    margin-left: 0rem;
+  }
+  .title {
+    font-size: 5.5rem;
+    margin-top: 2rem;
+  }
+  .header {
+    height: 8rem;
+  }
+  .postLiButt input {
+    width: 53.3rem;
+    height: 5rem;
+    font-size: 4.83rem;
+  }
+  .postLiText span {
+    margin-top: 3.5rem;
+    position: absolute;
+    font-size: 3.73rem;
+    margin-left: 0rem;
+    width: 54rem;
+  }
+  .postLi textarea {
+    margin-top: 8.5rem;
+    margin-left: 0rem;
+    width: 53.3rem;
+    height: 8rem;
+  }
+  .postLi {
+    margin-top: 1.7rem;
+    width: 40rem;
+  }
+  .valuesText {
+    font-size: 3.73rem;
+  }
+  .postLi input {
+    width: 52.3rem;
+    height: 3rem;
+    border-radius: 0.27rem;
+  }
+  .valuesText {
+    font-size: 4.7rem;
+    margin-top: 1rem;
+  }
+  .elipseLeft {
+    display: none;
+  }
+  .elipseRight {
+    display: none;
+  }
+  .lineLTop {
+    display: none;
+  }
+  .lineLDown {
+    display: none;
+  }
+  .lineR {
+    display: none;
+  }
+  .postLogo {
+    height: 7rem;
+    margin-top: 0.5rem;
+  }
+}
