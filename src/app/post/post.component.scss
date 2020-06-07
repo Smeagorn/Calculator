@@ -1,26 +1,200 @@
+.elipseLeft {
+  margin-left: 5.11rem;
+  position: absolute;
+  width: 7.27rem;
+  height: 4rem;
+  background: #c4c4c4;
+  border-radius: 0 0 50% 50% /0 0 100% 100%;
+}
+.elipseRight {
+  margin-top: 1.14rem;
+  margin-left: 93.4%;
+  position: absolute;
+  width: 5rem;
+  height: 4rem;
+  background: #a51717;
+  border-radius: 100% 50% 0% 0%/140% 20% 0% 0%;
+}
+.lineLTop {
+  margin-left: 15rem;
+  margin-top: 3.1rem;
+  position: absolute;
+  width: 5.8rem;
+  height: 0px;
+  border: 1px solid #b00000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(138.76deg);
+}
+.lineLDown {
+  margin-left: 16.4rem;
+  margin-top: 3.5rem;
+  position: absolute;
+  width: 4.5rem;
+  height: 0px;
+  border: 1px solid #b00000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(138.76deg);
+}
+
+.lineR {
+  margin-left: 57rem;
+  margin-top: 1.1rem;
+  position: absolute;
+  width: 4.5rem;
+  height: 0px;
+  border: 0.05rem solid #b00000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(138.76deg);
+}
+.post {
+  font-size: 1.3177vw;
+  font-family: Vodafone;
+  font-style: normal;
+  margin: 0 auto;
+  width: 100%;
+}
+.body {
+  display: flex;
+  position: relative;
+}
 li,
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.postTextarea {
-  height: 10rem;
-  width: 24rem;
+
+.header {
+  width: 100%;
+  height: 5.1111rem;
+  background: #ffffff;
+  mix-blend-mode: overlay;
+  box-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.05rem;
 }
-.postLi {
-  list-style-type: none;
-}
+
 .postLogoUl {
   display: flex;
+  height: 5.1rem;
+  flex-direction: row;
+  justify-content: center;
 }
+.postLiLogo {
+  margin-right: 4rem;
+}
+
 .postLogo {
-  width: 8rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  height: 4.8rem;
+
+  margin-block-start: 0.15rem;
 }
-div {
-  //background-image: url(./img/18.png); //Если делаю тут бг, то в ts начинает работать логотип. комментирую, работоспособность сохраняется.
+.title {
+  margin-block-start: 1.5rem;
+  height: 100%;
+  margin-block-end: 1.8rem;
+  font-family: Vodafone;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: #b00000;
+  text-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
   width: 100%;
-  height: 24rem;
+  margin-right: 0.5rem;
+  background: linear-gradient(
+    180deg,
+    rgba(181, 147, 147, 0.37) 49%,
+    rgba(154, 19, 19, 0.58) 82.81%
+  );
+
+  mix-blend-mode: multiply;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+  border-radius: 1px;
 }
+.valuesUl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Vodafone;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffffff;
+  text-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+}
+.postLi {
+  margin-top: 2.7rem;
+
+  padding-right: 4rem;
+}
+
+.postLi input {
+  width: 9rem;
+  height: 1.7rem;
+  background: #f4f4f4;
+  border: 1px solid #000000;
+  box-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.27rem;
+}
+
+.conclusion {
+  margin-top: 2.6rem;
+  margin-left: 19rem;
+}
+
+.postLiButt input {
+  justify-content: center;
+  width: 11.3rem;
+  height: 2rem;
+  background: #b00000;
+  border: 1px solid #000000;
+  box-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.27rem;
+  font-family: Vodafone;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.83rem;
+  line-height: 0.94rem;
+
+  color: #ffffff;
+  text-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+}
+.postLiText span {
+  margin-top: 1.29rem;
+  position: absolute;
+  width: 15.88rem;
+  height: 1.27rem;
+  font-family: Vodafone;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.11rem;
+  line-height: 1.27rem;
+
+  color: #ffffff;
+  text-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+  margin-left: -2.8rem;
+}
+
+.postLi textarea {
+  margin-top: 1.16rem;
+  margin-left: -5rem;
+  width: 20rem;
+  height: 6rem;
+  background: #f4f4f4;
+  border: 1px solid #000000;
+  box-shadow: 0rem 0.22rem 0.22rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.27rem;
+  resize: none;
+}
+

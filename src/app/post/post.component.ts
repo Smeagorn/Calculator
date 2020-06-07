@@ -9,10 +9,10 @@ export class PostComponent implements OnInit {
   title = 'Ипотечный калькулятор';
 
   logo = '/assets/img/18.png';
-  sum = 20000000;
-  fee = 2000;
-  percent = 20;
-  term = 60;
+  sum = 0;
+  fee = 0;
+  percent = 0;
+  term = 0;
   ngOnInit(): void {}
 
   calculator(): void {
